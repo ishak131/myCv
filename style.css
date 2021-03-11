@@ -1,0 +1,107 @@
+body{
+    background:url("./images/background.jpg") no-repeat fixed ;
+    background-size: cover;
+}
+
+.cv-container{
+    width: 1080px;
+    background: #CCCDCF77 0% 0% no-repeat padding-box;
+    box-shadow: 2px 3px 6px #0000005C;
+    margin: auto;
+    min-height: 1080px;
+    display: flex;
+    justify-content: center;
+}
+.cv{
+    display: flex;
+    width: 900px;
+    min-height: 960px;
+    background: #FEFFFF77 0% 0% no-repeat padding-box;
+    margin: auto;
+}
+
+.personal-info{
+    width: 450px;
+    min-height: 900px;
+    background: #263643FC 0% 0% no-repeat padding-box;
+    padding-top: 60px;
+}
+.image{
+    margin: auto;
+    border-radius: 50%;
+    height: 145px;
+    width: 145px;
+    background: url("./images/personal.jpg") no-repeat center center;
+    background-size: cover;
+}
+.info{
+    padding: 20px 20px;
+}
+.header{
+    font: normal normal 400 20px/27px Segoe UI;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.04px;
+    color: #FFFFFFFC;
+    text-transform:uppercase;
+    background-color: inherit 30%;
+}
+
+.link{
+    font: normal normal 500 14px Segoe UI;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.04px;
+    color: #FFFFFFFC;
+    word-break: break-all;
+}
+.extra-info{
+    margin: 30px;
+    flex-grow: 1;
+}
+.card{
+    background-color: #ffffff99;
+    padding: 40px;
+    
+    text-align: center;
+}
+.card > h2 {
+    font: normal normal 500 33px Segoe UI;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: fit-content;
+    margin: auto;
+}
+.card > h2 > hr{
+    background-color: black;
+}
+.card > h3 {
+    font: normal normal 500 22px Segoe UI;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0 0 0;
+}
+.work > *{
+    color: black !important;
+}
+.small-header{
+    font: normal normal 400 20px/27px Segoe UI;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.04px;
+    color: #FFFFFFFC;
+    text-transform:uppercase;
+}
+
+.content{
+    font: normal normal 400 16px Segoe UI;    
+}   
+a{
+    text-decoration: none;
+    color: inherit;
+}
+hr{
+    height: 0;
+    padding: 0;
+    background-color: ivory;
+}
+
+.work > hr {
+    background-color: black !important;
+}
