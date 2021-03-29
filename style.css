@@ -92,6 +92,7 @@ body{
 .content{
     font: normal normal 400 16px Segoe UI;    
 }   
+
 a{
     text-decoration: none;
     color: inherit;
@@ -101,7 +102,11 @@ hr{
     padding: 0;
     background-color: ivory;
 }
-
+.black{
+    font: normal normal 800 18px Segoe UI;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.04px;
+}
 .work > hr {
     background-color: black !important;
 }
